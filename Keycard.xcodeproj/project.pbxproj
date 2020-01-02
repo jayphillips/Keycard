@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B512A20223BE8F4E009FD6EA /* EmployeeInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B512A20123BE8F4E009FD6EA /* EmployeeInfoScreen.swift */; };
 		B59FD89D2391BC420055A4DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59FD89C2391BC420055A4DE /* AppDelegate.swift */; };
 		B59FD89F2391BC420055A4DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59FD89E2391BC420055A4DE /* SceneDelegate.swift */; };
 		B59FD8A12391BC420055A4DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59FD8A02391BC420055A4DE /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B512A20123BE8F4E009FD6EA /* EmployeeInfoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeInfoScreen.swift; sourceTree = "<group>"; };
 		B59FD8992391BC420055A4DE /* Keycard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keycard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59FD89C2391BC420055A4DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B59FD89E2391BC420055A4DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,8 +42,16 @@
 		B512A1FF23BE84B9009FD6EA /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				B512A20123BE8F4E009FD6EA /* EmployeeInfoScreen.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		B512A20023BE8F05009FD6EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		B59FD8902391BC420055A4DE = {
@@ -63,6 +73,7 @@
 		B59FD89B2391BC420055A4DE /* Keycard */ = {
 			isa = PBXGroup;
 			children = (
+				B512A20023BE8F05009FD6EA /* Model */,
 				B512A1FF23BE84B9009FD6EA /* Screens */,
 				B59FD89C2391BC420055A4DE /* AppDelegate.swift */,
 				B59FD89E2391BC420055A4DE /* SceneDelegate.swift */,
@@ -157,6 +168,7 @@
 				B59FD89D2391BC420055A4DE /* AppDelegate.swift in Sources */,
 				B59FD89F2391BC420055A4DE /* SceneDelegate.swift in Sources */,
 				B59FD8A12391BC420055A4DE /* ContentView.swift in Sources */,
+				B512A20223BE8F4E009FD6EA /* EmployeeInfoScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
